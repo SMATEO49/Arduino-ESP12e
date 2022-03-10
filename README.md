@@ -21,15 +21,15 @@
 
 > The entire system consists of a computer connected to the WiFi network (to send the set temperature to ThingSpeak), CP2101 adapter (used for diagnostics and programming), switching power supply and ESP12E module with all electrical connections.
 
-![Complete photo of system](https://github.com/SMATEO49/Arduino-ESP12e/blob/main/readmefiles/realView.jpg?raw=true)<figcaption>Fig. 1 Made the circuit connected to the computer and power supply 1) CP2101 adapter, 2) switching power supply, 3) ESP12e</figcaption>
+![Complete photo of system](https://github.com/SMATEO49/Arduino-ESP12e/blob/master/readmefiles/realView.jpg?raw=true)<figcaption>Fig. 1 Made the circuit connected to the computer and power supply 1) CP2101 adapter, 2) switching power supply, 3) ESP12e</figcaption>
 
 > Fig. 2 shows the wiring diagram for the connections of the components. All resistors in the wiring diagram are 10 kΩ resistance. The diagram is made using [1].
 
-![Wiring diagram](https://github.com/SMATEO49/Arduino-ESP12e/blob/main/readmefiles/electric.png?raw=true)<figcaption>Fig. 2 Wiring diagram</figcaption>
+![Wiring diagram](https://github.com/SMATEO49/Arduino-ESP12e/blob/master/readmefiles/electric.png?raw=true)<figcaption>Fig. 2 Wiring diagram</figcaption>
 
 > The program uses the library of the creators of the ESP8266 modules and the WiFi library. The most important task in the program is to maintain the stability of the program (handling of exceptions and errors), which has been confirmed by 24 hours of continuous operation registered on ThingSpeak during the failure of the connection several times for a short time and the certainty that the used regulators and the module do not heat up after such a long time during operation (management of generated heat fulfilled). The program was written with the support of [2].
 
-![TS schreenshot](https://github.com/SMATEO49/Arduino-ESP12e/blob/main/readmefiles/TSscr.png?raw=true)<figcaption>Fig. 3 Robot for painting objects: a) side view, b) top view, c) cycle of painting metal objects, d) cycle of painting non-metal objects</figcaption>
+![TS schreenshot](https://github.com/SMATEO49/Arduino-ESP12e/blob/master/readmefiles/TSscr.png?raw=true)<figcaption>Fig. 3 Robot for painting objects: a) side view, b) top view, c) cycle of painting metal objects, d) cycle of painting non-metal objects</figcaption>
 
 ## Literature
 
